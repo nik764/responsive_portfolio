@@ -29,3 +29,15 @@ projectCards.forEach((card, index) => {
   // Make the cursor change to a pointer when hovering over the card
   card.style.cursor = 'pointer';
 });
+const linkedinBtn = document.getElementById('linkedin-btn');
+  if (linkedinBtn) {
+    console.log("Found LinkedIn button by ID");
+    linkedinBtn.addEventListener('click', function() {
+      console.log("LinkedIn button clicked");
+      window.location.href = "https://linkedin.com/in/yourprofile";
+    });
+  } else {
+    console.log("No LinkedIn button found with ID 'linkedin-btn'");
+  }
+  
+});
