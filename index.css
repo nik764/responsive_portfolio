@@ -5,7 +5,7 @@
 }
 body{
     background-color: white;
-    width: 1444px;
+    width: 100rem;
 }
 header{
     background-color: rgb(18, 18, 80);
@@ -88,6 +88,13 @@ span{
     gap: 20px;
     background-color: rgba(255, 255, 255, 0.589);
     border-radius: 16px;
+        /* Center horizontally using margins */
+        margin-left: auto;
+        margin-right: auto;
+        
+        /* Text alignment for content inside */
+        text-align: center;
+      
 }
 .suc{
     margin-left:29px ;
@@ -118,7 +125,7 @@ button{
     font-size: 18px;
     font-weight: bold;
     border: none;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px; 
     padding: 15px 30px;
     cursor: pointer;
     margin-top: 34px;
@@ -133,13 +140,31 @@ button{
         gap: 15px;
         justify-content: center;
 }
+.Proj img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.Pro{
+    max-width: fit-content;
+    
+   gap: 12px;
+   display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  
+}
 .shape{
     border: 1px solid whitesmoke;
+    padding-bottom: 4px;
     border-radius: 23px;
     text-align: left;
-    width:fit-content;
+    
     
 }
+
 .ptr{
     display: flex;
     text-align: center;
@@ -150,8 +175,9 @@ button{
         text-align: center;
 }
 .df{
-    margin-left: auto;
-    border-radius: 23px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 .Education{
     margin-top: 63px;
@@ -162,7 +188,6 @@ button{
     display: flex;
     gap: 24px;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 34px;
 }
 .photo{
