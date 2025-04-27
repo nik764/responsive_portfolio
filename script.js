@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log("Button clicked: " + spanText);
         
         if (spanText.includes('Linkedin')) {
-          window.location.href = "https://linkedin.com/in/yourprofile";
+          window.location.href ="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiwp5vkw_eMAxVHp2YCHQ0PNuIYABAAGgJzbQ&co=1&ase=2&gclid=Cj0KCQjwiLLABhCEARIsAJYS6ulx5GTSATPoG25xdRow3-itPr9D6hhsgCgVh38LGBZRr7o5X2rYSxoaAqHVEALw_wcB&ohost=www.google.com&cid=CAESV-D2OqeV_XamPUsI4uhJVSEO0nxMymKlfCsaazJ1WwPpNuNmADs7MYdNQaApYNLYdXzegQFQ__YtcUy7ChQVNz9R5SggxZ_U6WOR0cgFoxz1jAdMkqjEqg&sig=AOD64_2mIvz49K3uuhtwdFQwJYDg3M-Y5w&q&nis=4&adurl&ved=2ahUKEwjNxpXkw_eMAxVaSGwGHVMxFD0Q0Qx6BAgJEAE";
         } else if (spanText.includes('Github')) {
-          window.location.href = "https://github.com/yourusername";
+          window.location.href = "https://github.com/";
         } else if (spanText.includes('myAssignment')) {
           window.location.href = "mailto:myAssignment@explorin.io";
         }
